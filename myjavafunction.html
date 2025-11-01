@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <body>
+        <p id="result"></p>
+        <button onclick="add(28,395)">+</button>
+        <button onclick="result(32,19)">X</button>
+        <button onclick="scope_var()">Display</button>
+        <script>
+            function add(x,y){
+                var r;
+                r=x+y;
+                document.getElementById('result').innerHTML=r;
+            }
+
+            function result(x,z){
+                var r;
+                r=x*z;
+                document.getElementById("result").innerHTML=r;
+            }
+            var qwerty=777;
+            function scope_var(){
+                var a=278;
+            
+
+            }document.write(a);
+        </script>
+    </body>
+</html>
